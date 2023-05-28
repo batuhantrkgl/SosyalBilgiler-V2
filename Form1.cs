@@ -60,13 +60,13 @@ namespace SosyalBilgilerV2
             guna2Button10.Visible = true;
             guna2Button11.Visible = true;
             guna2Button33.Visible = true;
-            Size = new Size(763, 343);
+            Size = new Size(763, 373);
         }
 
         // 6. Sýnýflar Butonu.
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Size = new Size(763, 343);
+            Size = new Size(763, 373);
             guna2Button1.Visible = false;
             guna2Button2.Visible = false;
             guna2Button3.Visible = false;
@@ -85,7 +85,7 @@ namespace SosyalBilgilerV2
         // 7. Sýnýflar Butonu.
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            Size = new Size(763, 343);
+            Size = new Size(763, 373);
             guna2Button1.Visible = false;
             guna2Button2.Visible = false;
             guna2Button3.Visible = false;
@@ -103,7 +103,7 @@ namespace SosyalBilgilerV2
         // 8. Sýnýflar Butonu
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            Size = new Size(763, 343);
+            Size = new Size(763, 373);
             guna2Button1.Visible = false;
             guna2Button2.Visible = false;
             guna2Button3.Visible = false;
@@ -628,6 +628,24 @@ namespace SosyalBilgilerV2
 
             // 7-Zip ile dosyayý aç.
             Process.Start("C:/Program Files/7-Zip/7zFM.exe", " " + dosyaAdi);
+        }
+
+        private void guna2ImageButton1_Click(object sender, EventArgs e)
+        {
+            // Get the URL of the link.
+            string url = "https://www.github.com/batuhantrkgl/SosyalBilgiler-V2";
+
+            // Create a new ProcessStartInfo object.
+            ProcessStartInfo psi = new ProcessStartInfo();
+
+            // Set the URL of the browser to open.
+            psi.FileName = url;
+
+            // Set the UseShellExecute property to true.
+            psi.UseShellExecute = true;
+
+            // Start the browser.
+            Process.Start(psi);
         }
     }
 }

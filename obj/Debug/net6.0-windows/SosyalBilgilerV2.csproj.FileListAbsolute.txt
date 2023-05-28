@@ -19,3 +19,4 @@ C:\Users\Batuhantrkgl\source\repos\SosyalBilgilerV2\SosyalBilgilerV2\obj\Debug\n
 C:\Users\Batuhantrkgl\source\repos\SosyalBilgilerV2\SosyalBilgilerV2\obj\Debug\net6.0-windows\SosyalBilgilerV2.pdb
 C:\Users\Batuhantrkgl\source\repos\SosyalBilgilerV2\SosyalBilgilerV2\obj\Debug\net6.0-windows\SosyalBilgilerV2.genruntimeconfig.cache
 C:\Users\Batuhantrkgl\source\repos\SosyalBilgilerV2\SosyalBilgilerV2\obj\Debug\net6.0-windows\ref\SosyalBilgilerV2.dll
+C:\Users\Batuhantrkgl\source\repos\SosyalBilgilerV2\SosyalBilgilerV2\obj\Debug\net6.0-windows\SosyalBilgilerV2.Properties.Resources.resources
