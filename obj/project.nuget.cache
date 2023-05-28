@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "lokgZnA9S+DbN+eTnLh5jPvSSYx5yEUCBkp1XCRSmx/ok9ri2gGaa9+3Kk/J48aUydC5WnKAlV0MOFPWCXthoQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Batuhantrkgl\\source\\repos\\SosyalBilgilerV2\\SosyalBilgilerV2\\SosyalBilgilerV2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Batuhantrkgl\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.4\\guna.ui2.winforms.2.0.4.4.nupkg.sha512",
+    "C:\\Users\\Batuhantrkgl\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\Batuhantrkgl\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
