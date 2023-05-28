@@ -6,7 +6,13 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <StartupObject></StartupObject>
+    <ApplicationIcon>download_FILL0_wght400_GRAD0_opsz48.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="download_FILL0_wght400_GRAD0_opsz48.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.4" />
