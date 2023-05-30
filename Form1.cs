@@ -13,7 +13,8 @@ namespace SosyalBilgilerV2
         // Ayný sayfadaki ana butonlar dýþýndaki tüm butonlarý gizle.
         private void Form1_Load(object sender, EventArgs e)
         {
-            Size = new Size(472, 210);
+            this.AutoSize = true;
+            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             guna2Button5.Visible = false;
             guna2Button6.Visible = false;
             guna2Button7.Visible = false;
@@ -43,6 +44,7 @@ namespace SosyalBilgilerV2
             guna2Button31.Visible = false;
             guna2Button32.Visible = false;
             guna2Button33.Visible = false;
+            guna2ImageButton1.Visible = false;
         }
 
         // 5. Sýnýflar Butonu
@@ -60,13 +62,16 @@ namespace SosyalBilgilerV2
             guna2Button10.Visible = true;
             guna2Button11.Visible = true;
             guna2Button33.Visible = true;
-            Size = new Size(763, 373);
+            guna2ImageButton1.Visible = true;
+            this.AutoSize = true;
+            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
         }
 
         // 6. Sýnýflar Butonu.
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            Size = new Size(763, 373);
+            this.AutoSize = true;
+            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             guna2Button1.Visible = false;
             guna2Button2.Visible = false;
             guna2Button3.Visible = false;
@@ -80,12 +85,14 @@ namespace SosyalBilgilerV2
             guna2Button18.Visible = true;
             guna2Button33.Visible = true;
             guna2Button33.Visible = true;
+            guna2ImageButton1.Visible = true;
         }
 
         // 7. Sýnýflar Butonu.
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            Size = new Size(763, 373);
+            this.AutoSize = true;
+            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             guna2Button1.Visible = false;
             guna2Button2.Visible = false;
             guna2Button3.Visible = false;
@@ -98,12 +105,14 @@ namespace SosyalBilgilerV2
             guna2Button24.Visible = true;
             guna2Button25.Visible = true;
             guna2Button33.Visible = true;
+            guna2ImageButton1.Visible = true;
         }
 
         // 8. Sýnýflar Butonu
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            Size = new Size(763, 373);
+            this.AutoSize = true;
+            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             guna2Button1.Visible = false;
             guna2Button2.Visible = false;
             guna2Button3.Visible = false;
@@ -116,12 +125,14 @@ namespace SosyalBilgilerV2
             guna2Button31.Visible = true;
             guna2Button32.Visible = true;
             guna2Button33.Visible = true;
+            guna2ImageButton1.Visible = true;
         }
 
         // Geri Butonu
         private void guna2Button33_Click(object sender, EventArgs e)
         {
-            Size = new Size(472, 210);
+            this.AutoSize = true;
+            this.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             guna2Button5.Visible = false;
             guna2Button6.Visible = false;
             guna2Button7.Visible = false;
@@ -151,6 +162,7 @@ namespace SosyalBilgilerV2
             guna2Button31.Visible = false;
             guna2Button32.Visible = false;
             guna2Button33.Visible = false;
+            guna2ImageButton1.Visible = false;
             guna2Button1.Visible = true;
             guna2Button2.Visible = true;
             guna2Button3.Visible = true;
